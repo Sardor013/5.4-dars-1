@@ -1,4 +1,4 @@
-#1
+
 def swap_case(s):
     return s.swapcase()
 
@@ -8,7 +8,7 @@ if __name__ == '__main__':
     print(result)
 
 
-#2
+
 
 def split_and_join(line):
     words = line.split(" ")
@@ -20,7 +20,7 @@ if __name__ == '__main__':
     print(result)
 
 
-#3
+
 def print_full_name(first, last):
     print("Hello {} {}! You just delved into python.".format(first, last))
 
@@ -32,7 +32,7 @@ if __name__ == '__main__':
 
 
 
-#4
+
 def mutate_string(string, position, character):
     string_list = list(string)
     string_list[position] = character
@@ -51,7 +51,7 @@ if __name__ == '__main__':
 
 
 
-#5
+
 def count_substring(string, sub_string):
     count = 0
     for i in range(len(string) - len(sub_string) + 1):
@@ -70,7 +70,7 @@ if __name__ == '__main__':
 
 
 
-#6
+
 if __name__ == '__main__':
     s = input()
 
